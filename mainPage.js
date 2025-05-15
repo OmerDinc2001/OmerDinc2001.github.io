@@ -14,7 +14,7 @@ async function fetchData(){
 
         text.src = text;
     }
-    catch{
+    catch(error){
         console.error(error);
     }
 }
