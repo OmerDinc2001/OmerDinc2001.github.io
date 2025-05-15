@@ -10,7 +10,7 @@ async function fetchData(){
 
         const data = await response.json();
         const lyrics = data.lyrics;
-        const text = document.ATTRIBUTE_NODE.getElementById("lyrics");
+        const text = document.getElementById("lyrics");
 
         text.src = text;
     }
