@@ -4,8 +4,11 @@
 
 <h3>Lyrics Browser by OmerDinc2001</h3>
 
+<h4>Artist name:</h4>
 <input type="text" id="artist" value="">
-<input type="text" id="music" value="">
+
+<h4>Track title:</h4>
+<input type="text" id="track" value="">
 
 <button onclick="myFunction()">Try it</button>
 
@@ -13,7 +16,7 @@
 
 <script>
 function myFunction() {
-  var x = document.getElementById("myText").value;
+  var x = document.getElementById("artist").value;
   document.getElementById("demo").innerHTML = x;
 }
 </script>
