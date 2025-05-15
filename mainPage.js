@@ -12,7 +12,7 @@ async function fetchData(){
         const lyrics = data.lyrics;
         const text = document.getElementById("lyrics");
 
-        text.src = lyrics;
+        text.innerHTML = lyrics;
     }
     catch(error){
         console.error(error);
